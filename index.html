@@ -4,9 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Visa Information</title>
+
+  <!-- 🟢 لینک فونت Poppins از Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Poppins', sans-serif; /* 🟢 اصلاح‌شده */
       text-align: center;
       background-color: #f9f9f9;
       padding: 20px;
@@ -30,7 +34,7 @@
     .info {
       text-align: center;
       font-size: 14px;
-      color: gray;
+      color: #626262;
     }
     .info strong {
       display: block;
@@ -47,8 +51,6 @@
       margin-top: 15px;
       border-radius: 5px;
     }
-
-    /* 🟢 عکس PNG بالا سمت چپ هم‌عرض container با فاصله از متن */
     .top-left-png {
       display: block;
       margin: 0 auto 20px auto;
@@ -56,8 +58,6 @@
       width: 100%;
       border-radius: 5px;
     }
-
-    /* 🟢 در موبایل */
     @media (max-width: 480px) {
       .top-left-png {
         width: 100%;
@@ -68,7 +68,6 @@
 </head>
 <body>
 
-  <!-- 🟢 عکس PNG بالا سمت چپ با فاصله از متن -->
   <img src="https://i.postimg.cc/xCqXXPx9/visa-1-6-copy-copy.png" alt="PNG Image" class="top-left-png">
 
   <div class="container">
